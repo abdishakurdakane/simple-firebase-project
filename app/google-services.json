@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "63682898461",
+    "project_id": "demofirebase-5b1d3",
+    "storage_bucket": "demofirebase-5b1d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63682898461:android:29a192c3fe63b3abc9f4f4",
+        "android_client_info": {
+          "package_name": "com.taaj.firebasedemoproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63682898461-usr6u53dj67lbn0ls0urq1bjejhbb7ua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI6cSldYhwI-KKZJu0VU1m9k23qJkGPww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63682898461-usr6u53dj67lbn0ls0urq1bjejhbb7ua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
