@@ -50,7 +50,7 @@ public class RegisterActivity extends AppCompatActivity {
     private void createUSer(){
 
         String email = etRegEmail.getText().toString();
-        String pass  = etRegPassword.getText().toString();
+        String pass = etRegPassword.getText().toString();
 
         if(TextUtils.isEmpty(email)){
             etRegEmail.setError("please enter your email");
