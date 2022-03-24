@@ -16,11 +16,12 @@ import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.taaj.firebasedemoproject.ForgotPasswordActivity;
 
 public class LoginActivity extends AppCompatActivity {
     TextInputEditText etLoginEmail;
     TextInputEditText etLoginPassword;
-    TextView tvRegisterHere;
+    TextView tvRegisterHere,txtForgotPassword;
     Button btnLogin;
 
     FirebaseAuth mAuth;
@@ -33,6 +34,7 @@ public class LoginActivity extends AppCompatActivity {
         etLoginPassword = findViewById(R.id.etLoginPass);
         tvRegisterHere = findViewById(R.id.tvRegisterHere);
         btnLogin = findViewById(R.id.btnLogin);
+        txtForgotPassword = findViewById(R.id.txt_forgot_pass);
 
         mAuth = FirebaseAuth.getInstance();
 
@@ -43,6 +45,11 @@ public class LoginActivity extends AppCompatActivity {
         tvRegisterHere.setOnClickListener(view -> {
             startActivity(new Intent(LoginActivity.this,RegisterActivity.class));
         });
+
+        txtForgotPassword.setOnClickListener(view -> {
+            startActivity(new Intent(LoginActivity.this,ForgotPasswordActivity.class));
+        });
+
     }
 
 
